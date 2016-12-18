@@ -1,0 +1,13 @@
+The command below will compile the program
+
+gfortran -o "rwimmacsv - V2" "\users\roger\documents\marine weather\rwimmacsv - V2.f90"
+
+The command below will run the program and create a .csv file from an un-tarred and g-zipped archive
+
+type "..\IMMA-MarineObs_icoads3.0.0_d201412_c20160608080000-sample.dat"|"rwimmacsv - v2" > "..\IMMA-MarineObs_icoads3.0.0_d201412_c20160608080000-sample.csv"
+
+The ICOADS Homepage is here: http://icoads.noaa.gov/products.html and the data and documentation can be found here: https://www.ncei.noaa.gov/data/marine/icoads3.0/ along with some documentation.
+
+At this point this code will only process the core portion of the record however could be expanded to process the rest of the record.
+
+This is placed on GitHub in the hopes it will assist another Researcher inthe future.
